@@ -36,8 +36,8 @@ jobs:
       #max-parallel: 3
       matrix:
         CONFIG: [MEDIATEK-HONOR-FUR-602]
-        SOURCE: [VIKINGYFY/immortalwrt]
-        BRANCH: [owrt]
+        SOURCE: [yelongtian0-svg/immortalwrt]
+        BRANCH: [main]
 
     #调用公用编译核心WRT-CORE.yml
     uses: ./.github/workflows/WRT-CORE.yml
